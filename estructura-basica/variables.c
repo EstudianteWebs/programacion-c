@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <string.h>                           //libreria para cadenas (palabras)
+
+int variable_global;
 
 int main()
 {
@@ -12,8 +15,10 @@ int main()
     long numero_entero_largo = 656562562;       //escribe numero enteros largos
 
     //DATOS PARA ESCRIBIR LETRAS
-    char letra_sola = 's';                      //se usa el simbolo (') para un caracter
-    string palabra_completa = "hola a todos";   //se usa (") para oraciones o palabras
+    char letra_sola = 's';                       //se usa el simbolo (') para un caracter
+
+    //se usa (") para oraciones o palabras. Se pone [100] para indicar que 100 letras máximo
+    char palabra_completa[100] = "hola a todos";
 
     return 0;
 }
