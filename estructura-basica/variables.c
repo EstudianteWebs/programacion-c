@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>                           //libreria para cadenas (palabras)
 
-int variable_global;
-
 int main()
 {
     //DATOS FLOTANTES
