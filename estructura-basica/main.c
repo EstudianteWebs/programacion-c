@@ -2,18 +2,13 @@
 
 int main()
 {
-
     //Comentario para una linea o simple
 
    /*
-
       Esto  es un
-
-     Comentario multilínea
-
+      Comentario multilínea
   */
 
-
     printf("Hello cruel world");                                       //imprime mensajes de salida
-    return 0;                                                                    //Retorna valor 0 al finalizar con éxito
+    return 0;                                                          //Retorna valor 0 al finalizar con éxito
 }
